@@ -42,7 +42,7 @@ The file requirements.txt is updated to include the following depdendencies.
 azure-functions
 fastapi
 ```
-Note that `azure-functions-worker` should not be included in this file as the Python worker is manager by Azure Functions platform and manually managing it may cause unexpected issues.
+Note that `azure-functions-worker` should not be included in this file as the Python worker is managed by Azure Functions platform and manually managing it may cause unexpected issues.
 
 The following code shows the use of `AsgiMiddleware`, which redirects the invocations to FastAPI handler.
 ```python
